@@ -1,0 +1,86 @@
+/* Block Darstellung für HTML5-Elemente im IE8 */
+header,
+nav,
+footer {
+    display: block;
+}
+
+/***********************************************/
+body {
+    background-color: whitesmoke;
+    background-image: url(https://images.alphacoders.com/105/1050377.jpg);
+    background-size: cover;
+}
+
+#wrapper {
+    max-width: 960px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: #df7401;
+    margin-bottom: 20px;
+}
+
+h1 {}
+
+#content {
+    width: 80%;
+    height: 680px;
+    background-color: #f5f5f593;
+    float: right;
+    margin-bottom: 20px;
+}
+
+nav {
+    width: 19%;
+    height: 680px;
+    float: left;
+    background-color: #8b8470;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    clear: both;
+    width: 100%;
+    height: 90px;
+    background-color: #bc0b0b;
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+        width: 100%
+    }
+
+    #content {
+        width: 100%;
+    }
+
+    #wrapper {
+        padding: 10px;
+        margin-top: 0px;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+    nav {
+        background-color: green;
+    }
+    background-imag {width: 100%;};
+}
